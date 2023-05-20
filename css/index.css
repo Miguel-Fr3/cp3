@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 20%;
+  padding: 20px;
+}
+
+/*cabeçalhp */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* form */
+.form-check-claro {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+/* Estilos para a caixa de seleção */
+.checkbox {
+  display: none;
+}
+
+.label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  user-select: none;
+}
+
+.ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.label:hover .ball {
+  background-color: #aaa;
+}
+
+.checkbox:checked + .label .ball {
+  background-color: #4CAF50;
+}
+
+/* Estilos para a seção de registro */
+.register {
+  text-align: center;
+}
