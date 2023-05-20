@@ -65,3 +65,13 @@ body{
     color: #000;
     font-weight: bold;
   }
+
+  .form-check input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #fbfbfb;
+  }
