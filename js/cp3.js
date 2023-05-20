@@ -39,6 +39,29 @@ function validateFields() {
 }
 
 //Função para alternar o modo claro/escuro
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-}
+//function toggleDarkMode() {
+    //document.body.classList.toggle('dark-mode');
+//}
+
+addEventListener("check", (evento)=>{
+
+    let toggle = document.querySelector("#form-check-claro"); 
+
+
+    // const eyePass = document.querySelector(".fa-eye");
+
+    if(evento.target.className == "form-check-claro" || evento.target.className == "form-check-escuro"){
+
+        evento.target.setAttribute("style","cursor:pointer")
+
+        if(toggle.getAttribute("class") == "form-check-claro"){
+            toggle.setAttribute("class","form-check-escuro");
+            evento.target.setAttribute("class","form-check-claro")
+        }else{
+            evento.target.setAttribute("style","cursor:pointer")
+            evento.target.setAttribute("class","form-check-claro")
+            toggle.setAttribute("class","form-check-claro");
+        }
+
+    }
+});
