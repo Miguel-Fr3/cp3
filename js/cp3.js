@@ -42,10 +42,10 @@ function validateFields() {
 //function toggleDarkMode() {
     //document.body.classList.toggle('dark-mode');
 //}
-
+// variavel checkbox
 const checkbox = document.querySelector('.checkbox');
 
-
+// adição do eventlistener pra trocar o tema
 checkbox.addEventListener('change', function() {
 
   const body = document.body;
@@ -53,7 +53,7 @@ checkbox.addEventListener('change', function() {
   body.classList.toggle('form-check-escuro');
 
 });
-
+//tema claro
 function applyLightModeStyles() {
   const form = document.querySelector('form');
   form.classList.remove('form-check-escuro');
@@ -66,7 +66,7 @@ function applyLightModeStyles() {
     element.classList.remove('form-check-escuro');
   });
 }
-
+//tema escuro
 function applyDarkModeStyles() {
   const form = document.querySelector('form');
   form.classList.add('form-check-escuro');
