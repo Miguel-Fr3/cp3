@@ -50,3 +50,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 25px;
   }
+
+  form.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+  }
