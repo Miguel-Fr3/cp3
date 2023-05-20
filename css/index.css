@@ -22,20 +22,24 @@ form {
 label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
   color: #333;
 }
 
 /* entrada */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="submit"] {
+input{
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-bottom: 10px;
+}
+
+input:hover{
+  background-color: #8f8585;
+
+
 }
 
 input[type="submit"] {
