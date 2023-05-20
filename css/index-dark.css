@@ -76,3 +76,12 @@ body{
     .form-check input:hover {
       background-color: rgba(177, 177, 177, 0.377);
     }
+    .form-check .register input {
+      background-color: gray;
+      color: #fbfbfb;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
