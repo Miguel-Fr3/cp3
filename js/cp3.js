@@ -43,25 +43,13 @@ function validateFields() {
     //document.body.classList.toggle('dark-mode');
 //}
 
-addEventListener("check", (evento)=>{
-
-    let toggle = document.querySelector("#form-check-claro"); 
+const checkbox = document.querySelector('.checkbox');
 
 
-    // const eyePass = document.querySelector(".fa-eye");
+checkbox.addEventListener('change', function() {
 
-    if(evento.target.className == "form-check-claro" || evento.target.className == "form-check-escuro"){
+  const body = document.body;
 
-        evento.target.setAttribute("style","cursor:pointer")
+  body.classList.toggle('form-check-escuro');
 
-        if(toggle.getAttribute("class") == "form-check-claro"){
-            toggle.setAttribute("class","form-check-escuro");
-            evento.target.setAttribute("class","form-check-claro")
-        }else{
-            evento.target.setAttribute("style","cursor:pointer")
-            evento.target.setAttribute("class","form-check-claro")
-            toggle.setAttribute("class","form-check-claro");
-        }
-
-    }
 });
