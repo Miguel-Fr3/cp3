@@ -80,3 +80,43 @@ input[type="submit"] {
 .register {
   text-align: center;
 }
+
+checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.label {
+  background-color: #000;
+  border-radius: 45px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  position: relative;
+  height: 26px;
+  width: 55px;
+  left: 87%;
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.15s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(29px);
+}
+.form-check h1 {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 25px;
+}
