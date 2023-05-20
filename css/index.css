@@ -61,7 +61,7 @@ form.form {
 
 .form-check label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #000;
   font-weight: bold;
 }
@@ -80,7 +80,7 @@ form.form {
 }
 
 .form-check .register input {
-  background-color: gray;
+  background-color: green;
   color: #fbfbfb;
   padding: 10px 20px;
   border: none;
@@ -90,5 +90,5 @@ form.form {
 }
 
 .form-check .register input:hover {
-  background-color: green;
+  background-color: rgb(20, 170, 20);
 }
