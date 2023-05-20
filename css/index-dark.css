@@ -44,3 +44,10 @@ body{
     .form-check  .checkbox:checked + .label .ball {
       transform: translateX(29px);
     }
+    .form-check h1 {
+      text-align: center;
+      color: #fbfbfb;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      margin-bottom: 25px;
+    }
