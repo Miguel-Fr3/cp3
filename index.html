@@ -18,25 +18,24 @@
               <div class="ball"></div>
             </label>
        </div>
-       <div class="form">
-        <label for="firstName" class="name">Primeiro Nome:</label>
-        <input type="text" id="firstName">
-    </div>
+       <div class="form-check">
+        <label for="firstName" class="">Primeiro Nome:</label>
+        <input type="text" id="firstName" required minlength="5"> 
 
-    <div class="form">
-        <label for="email" class="email">Email:</label>
-        <input type="email" id="email" >
+    <div class="form-check">
+        <label for="email" class="">Email:</label>
+        <input type="email" id="email" required minlength="5" pattern="[^@]+@[^@]+.[a-zA-Z]{2,}">
     </div>
-    <div class="form">
-        <label for="password" class="senha">Senha:</label>
+    <div class="form-check">
+        <label for="password" class="">Senha:</label>
         <input type="password" id="password" required minlength="6" maxlength="8">
     </div>
-    <div class="form">
-        <label for="confirmPassword" class="senhaC">Confirmação de Senha:</label>
+    <div class="form-check">
+        <label for="confirmPassword" class="">Confirmação de Senha:</label>
         <input type="password" id="confirmPassword" required>
     </div>
     <div class="register">
-        <input type="submit" value="Cadastrar" class="registrar">
+        <input type="submit" value="Cadastrar" class="">
     </div>
 </body>
 </html>
