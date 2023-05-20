@@ -11,9 +11,7 @@ body{
   background-size: cover;
   padding: 20px;
 }
-h3{ 
-  position: absolute;
-}
+
 .checkbox {
   opacity: 0;
   position: absolute;
@@ -29,7 +27,7 @@ h3{
   position: relative;
   height: 26px;
   width: 55px;
-left: 27%;
+left: 87%;
 }
 
 .label .ball {
