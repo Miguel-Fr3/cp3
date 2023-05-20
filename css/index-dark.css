@@ -51,3 +51,10 @@ body{
       font-family: 'Times New Roman', Times, serif;
       margin-bottom: 25px;
     }
+    .form-check form {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px #fbfbfb
+    }
