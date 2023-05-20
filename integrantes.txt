@@ -2,6 +2,7 @@ Alberto Seiji Assato RM:99977
 Matheus Rodrigues Olivera RM:551997
 Miguel Francisco de Freitas Fernandes RM:99997
 Nicolly de Almeida Gonçalves - RM: 552579
+Ye - RM:552213
 
 
 git url:https://github.com/Miguel-Fr3/cp3
