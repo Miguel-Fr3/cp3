@@ -37,3 +37,8 @@ function validateFields() {
 
     alert('Formulário enviado com sucesso!');
 }
+
+//Função para alternar o modo claro/escuro
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
